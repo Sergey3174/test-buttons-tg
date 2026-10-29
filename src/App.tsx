@@ -2,7 +2,7 @@
 
 // Меняй ссылки здесь для тестирования.
 const OLD_URL = "tg://resolve?domain=test_classifyv1_bot";
-const NEW_URL = "https://arden-strychnic-pleasingly.ngrok-free.dev/kyc/return";
+const NEW_URL = "https://arden-strychnic-pleasingly.ngrok-free.dev";
 
 function App() {
   return (
