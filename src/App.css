@@ -1,0 +1,41 @@
+﻿.link-test {
+  width: min(100%, 600px);
+  margin: auto;
+  padding: 32px 20px;
+  box-sizing: border-box;
+}
+
+.link-test h1 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.link-card {
+  display: grid;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.link-button {
+  display: block;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: #087ca8;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  background: #06648a;
+}
+
+.link-button:focus-visible {
+  outline: 3px solid var(--text-h);
+  outline-offset: 4px;
+}
+
+.link-card code {
+  display: block;
+  overflow-wrap: anywhere;
+}
